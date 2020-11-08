@@ -41,6 +41,8 @@ class Fib extends Component {
 
         await axios.post('/api/values', {
             index: this.state.index
+        }).catch(error => {
+            console.log(error.response);
         });
         this.setState({ index: '' });
         this.refetch();

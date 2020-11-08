@@ -9,7 +9,7 @@ function App() {
         <Router>
             <div className="App">
                 <header>
-                    <Link to="/">Home<br /></Link>
+                    <Link to="/">Home v2<br /></Link>
                     <Link to="/otherpage">Other Page<br /></Link>
                 </header>
                 <div>
